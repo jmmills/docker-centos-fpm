@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:latest
 MAINTAINER = Jason M. Mills <jmmills@cpan.org>
 RUN yum install -y gcc gcc-c++ make autoconf autotools
 RUN yum install -y ruby
